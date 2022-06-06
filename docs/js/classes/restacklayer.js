@@ -81,7 +81,7 @@ class ReStackLayer
                 new RestackLayerUpgrade("Resource Powerers are stronger",
                     level => new Decimal("1e2000"),
                     level => new Decimal(1).add(level.mul(3)), {
-                        maxLevel: 50,
+                        maxLevel: 10000,
                         getEffectDisplay: effectDisplayTemplates.numberStandard(2, "^")
                     }),
                 new RestackLayerUpgrade("Resource Multipliers are stronger",
